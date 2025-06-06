@@ -42,7 +42,7 @@ Siga os passos abaixo para rodar o projeto em sua máquina:
 
 Clone o repositório:
 
-git clone https://github.com/ElizeMS/pizzaria-web.git
+git clone https://github.com/ElizeMS/pizzariaCSharp.git
 
 Abra no Visual Studio ou rode via terminal:
 dotnet run

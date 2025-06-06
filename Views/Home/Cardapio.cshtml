@@ -1,0 +1,175 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+</head>
+<body>
+    <form id="myform">
+    </form>
+
+<div class="container text-center">
+    <div class=" row align-items-start">
+        <div class="col">
+            
+            <div class="card" style="width: 18rem;" data-name="calabresa" data-price="40">
+                <img src="https://p2.trrsf.com/image/fget/cf/774/0/images.terra.com/2023/01/26/445963829-pizza-liquidificador-receita.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                        <h5 class="card-title" id=" sabor">CALABRESA</h5>
+                    <p class="card-text">Descrição:</p>
+                    <p> Calabresa fatiada, queijo muçarela, cebola e azeitona.</p>
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        ...
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-primary">Save changes</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button type="button" id="calabresa" class="btn btn-outline-success" onclick="funcao1()" value="Exibir Alert">Adicionar ao carrinho</button>
+                   
+                </div>
+            </div>
+            <br />
+
+            <div class="card" style="width: 18rem;" data-name="quatroQ" data-price="50">
+                <img src="https://claudia.abril.com.br/wp-content/uploads/2020/02/pizza-quatro-queijos-comitc3aa-umami.jpg?quality=85" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title" id=" sabor"> QUATRO QUEIJOS</h5>
+                    <p class="card-text">Descrição: </p>
+                    <p> Queijo muçarela, gorgonzola, catupiry, parmesão e azeitona.</p>
+                    <br />
+                        <button type="button" id="quatroq" data-name="Camisa" data-price="20" class=" btn btn-outline-success" onclick="funcao1()" value="Exibir Alert">Adicionar ao carrinho</button>
+                       
+                </div>
+            </div>
+            <br />
+                <div class="card" style="width: 18rem;" data-name="brocolis" data-price="40">
+                    <img src="~/pizzabroc.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title" id=" sabor">Brócolis com bacon</h5>
+                        <p class="card-text">Descrição:</p>
+                        <br />
+                        <p> Brócolis ao alho, bacon, catupiry. </p>
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <button type="button" id="frangocatu" class="btn btn-outline-success" onclick="funcao1()" value="Exibir Alert">Adicionar ao carrinho</button>
+                    </div>
+
+                </div>
+
+        </div>
+
+        <div class="col">
+
+            
+
+            <div class="card" style="width: 18rem;" data-name="frangoC" data-price="40">
+                <img src="https://receitas123.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2023/05/pizza-de-frango-com-catupiry.png.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                        <h5 class="card-title" id=" sabor">FRANGO COM CATUPIRY</h5>
+                    <p class="card-text">Descrição:</p>
+                    <p> Frango temperado, catupiry e azeitona. </p>
+                    <br/>
+                    <button type="button" id="frangocatu" class="btn btn-outline-success" onclick="funcao1()" value="Exibir Alert">Adicionar ao carrinho</button>
+                </div>
+
+             </div>
+             <br />
+
+            <div class="card" style="width: 18rem;" data-name="CSeca" data-price="50">
+                <img src="~/PIZZAcarnes.jpg" class="card-img-top" alt="...">
+                 <div class="card-body">
+                        <h5 class="card-title" id=" sabor">CARNE SECA</h5>
+                    <p class="card-text">Descrição: </p>
+                    <p> Carne seca, queijo muçarela e azeitona.</p>
+                        <button type="button" id="carneseca" class="btn btn-outline-success" onclick="funcao1()" value="Exibir Alert">Adicionar ao carrinho</button>
+                </div>
+            </div>
+            <br />
+                <div class="card" style="width: 18rem;" data-name="atum" data-price="50">
+                    <img src="https://www.flavorpizza.com.br/Site2.0/produtos/pa2202261031070.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title" id=" sabor">ATUM</h5>
+                        <p class="card-text">Descrição: </p>
+                        <br />
+                        <p> Atum, cebola e queijo muçarela.</p>
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <button type="button" id="atum" class="btn btn-outline-success" onclick="funcao1()" value="Exibir Alert">Adicionar ao carrinho</button>
+                    </div>
+                </div>
+                
+
+
+        </div>
+        <div class="col">
+
+            
+
+            <div class="card" style="width: 18rem;" data-name="portuguesa" data-price="40">
+                <img src="https://i.ytimg.com/vi/tiW-9oASTx0/maxresdefault.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                        <h5 class="card-title" >PORTUGUESA</h5>
+                    <p class="card-text">Descrição: </p>
+                    <p> Presunto, queijo muçarela, ovos, ervilha, palmito e azeitona.</p>
+                    <br />
+                        <button type="button" id="portuguesa" class="btn btn-outline-success" onclick="funcao1()" value="Exibir Alert">Adicionar ao carrinho</button>
+                </div>
+            </div>
+
+                <br />
+
+                <div class="card" style="width: 18rem;" data-name="chocMor" data-price="40">
+                    <img src="https://www.receitasedicasdochef.com.br/wp-content/uploads/2017/07/Pizza-de-Chocolate-e-Morango.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title" >CHOCOLATE COM MORANGO</h5>
+                        <p class="card-text">Descrição: </p>
+                        <p> Chocolate ao leite e morangos fatiados.</p>
+                        <button type="button" id="chocMor" class="btn btn-outline-success" onclick="funcao1()" value="Exibir Alert">Adicionar ao carrinho</button>
+                        
+                    </div>
+                </div>
+
+                <br/>
+                <div class="card" style="width: 18rem;" data-name="banoffee" data-price="40">
+                    <img src="https://media-cdn.tripadvisor.com/media/photo-s/1d/c7/25/e8/banoffee.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Banoffee</h5>
+                        <p class="card-text">Descrição: </p>
+                        <p> Banana fatiada, doce de leite chantilly e canela em pó.</p>
+                        <button type="button" id="banoffee" class="btn btn-outline-success" onclick="funcao1()" value="Exibir Alert">Adicionar ao carrinho</button>
+
+                    </div>
+                </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
+<script>
+    function funcao1() { 
+                alert("Item adicionado ao carrinho!");
+            }
+</script>
